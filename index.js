@@ -62,6 +62,6 @@ app.delete('/delete/:id', (req, res)=>{
 
 
 
-app.listen(5000, ()=> console.log("AWESOME!!!"))
+app.listen(process.env.PORT || 5000)
 
 
